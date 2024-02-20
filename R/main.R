@@ -4,10 +4,11 @@
 #source(here("ignore.R"))
 
 
-library("gert")
 library("usethis")
+library("gert")
 library("gitcreds")
 
+# setup ----
 
 #' assumes a github account
 #'
@@ -42,6 +43,8 @@ setup <- function() {
     usethis::use_gpl3_license()
 }
 
+
+# main ----
 
 main <- function() {
 
