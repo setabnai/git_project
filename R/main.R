@@ -34,4 +34,12 @@ setup <- function() {
     # https://join.slack.com/t/nhsrcommunity/shared_invite/zt-2cxxtn37a-LIR0~axa4P8VJE2nDhtwxw
     # https://nhs-pycom.net/
 
+    # licenses
+    # https://choosealicense.com/
+    usethis::use_gpl3_license()
+}
+
+
+main <- function() {
+
 }
