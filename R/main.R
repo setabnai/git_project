@@ -9,6 +9,9 @@ library("usethis")
 library("gitcreds")
 
 
+#' assumes a github account
+#'
+#'
 setup <- function() {
 
     usethis::git_sitrep()
