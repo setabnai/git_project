@@ -9,7 +9,7 @@ library("usethis")
 library("gitcreds")
 
 
-main <- function() {
+setup <- function() {
 
     usethis::git_sitrep()
 
@@ -28,5 +28,10 @@ main <- function() {
 
     # for future repos
     # usethis::git_default_branch_configure()
+
+    # slack and government etc
+    #
+    # https://join.slack.com/t/nhsrcommunity/shared_invite/zt-2cxxtn37a-LIR0~axa4P8VJE2nDhtwxw
+    # https://nhs-pycom.net/
 
 }
