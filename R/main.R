@@ -15,7 +15,8 @@ library("gitcreds")
 #'
 setup <- function() {
 
-    usethis::git_sitrep()
+    usethis::git_sitrep(tool = "git")
+    usethis::git_sitrep(tool = "github")
 
     # global defaults to git ignore
     usethis::git_vaccinate()
