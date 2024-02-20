@@ -1,6 +1,6 @@
 ---
 title: "MDSN GIT Training 2020"
-author: "IB"
+author: "IB NCC"
 format: html
 embed-resources: true
 ---
