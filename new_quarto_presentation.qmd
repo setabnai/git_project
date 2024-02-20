@@ -2,6 +2,7 @@
 title: "MDSN GIT Training 20240220"
 author: "IB NCC"
 format: revealjs
+embed-resources: true
 ---
 
 ## Quarto
