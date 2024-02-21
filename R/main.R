@@ -18,11 +18,15 @@ setup <- function() {
     usethis::git_sitrep(tool = "git")
     usethis::git_sitrep(tool = "github")
 
+    usethis::git_sitrep(tool = "git", scope = "project")
+    usethis::git_sitrep(tool = "github", scope = "project")
+
     # global defaults to git ignore
     usethis::git_vaccinate()
 
     gitcreds::gitcreds_set()
     # gitcreds::gitcreds_delete()
+    gitcreds::gitcreds_get()
 
 
     usethis::use_git()
