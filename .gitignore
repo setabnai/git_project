@@ -6,4 +6,7 @@
 .httr-oauth
 .DS_Store
 .quarto
+# for credentials or WIP
 ignore.R
+# generated documents
+/*.pptx
